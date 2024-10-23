@@ -1,0 +1,16 @@
+Package: CalculadoraPrevalencia
+Title: Calculo de Tamano Muestral para Estudios de Prevalencia
+Version: 0.1.0
+Authors@R: 
+    person("Victor J.", "Vera-Ponce", email = "victor_jvp@hotmail.com",
+           role = c("aut", "cre"))
+Description: Herramientas para calcular tamanos muestrales en estudios
+    de prevalencia, considerando efectos de diseno, sensibilidad y 
+    especificidad de pruebas diagnosticas, y aspectos logisticos del estudio.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    stats
+LazyData: true
